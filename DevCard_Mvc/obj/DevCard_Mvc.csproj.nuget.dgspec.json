@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Danial - Davood\\Design website and programing\\Asp.netCore\\Project\\Dev Card2\\DevCard_Mvc\\DevCard_Mvc.csproj": {}
+    "D:\\Danial - Davood\\Design website and programing\\Asp.netCore\\Project\\DevCard\\DevCard_Mvc\\DevCard_Mvc.csproj": {}
   },
   "projects": {
-    "D:\\Danial - Davood\\Design website and programing\\Asp.netCore\\Project\\Dev Card2\\DevCard_Mvc\\DevCard_Mvc.csproj": {
+    "D:\\Danial - Davood\\Design website and programing\\Asp.netCore\\Project\\DevCard\\DevCard_Mvc\\DevCard_Mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Danial - Davood\\Design website and programing\\Asp.netCore\\Project\\Dev Card2\\DevCard_Mvc\\DevCard_Mvc.csproj",
+        "projectUniqueName": "D:\\Danial - Davood\\Design website and programing\\Asp.netCore\\Project\\DevCard\\DevCard_Mvc\\DevCard_Mvc.csproj",
         "projectName": "DevCard_Mvc",
-        "projectPath": "D:\\Danial - Davood\\Design website and programing\\Asp.netCore\\Project\\Dev Card2\\DevCard_Mvc\\DevCard_Mvc.csproj",
+        "projectPath": "D:\\Danial - Davood\\Design website and programing\\Asp.netCore\\Project\\DevCard\\DevCard_Mvc\\DevCard_Mvc.csproj",
         "packagesPath": "C:\\Users\\BlueWindows\\.nuget\\packages\\",
-        "outputPath": "D:\\Danial - Davood\\Design website and programing\\Asp.netCore\\Project\\Dev Card2\\DevCard_Mvc\\obj\\",
+        "outputPath": "D:\\Danial - Davood\\Design website and programing\\Asp.netCore\\Project\\DevCard\\DevCard_Mvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,12 +40,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
