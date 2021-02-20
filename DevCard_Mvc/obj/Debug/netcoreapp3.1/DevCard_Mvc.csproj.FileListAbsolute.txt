@@ -40,3 +40,4 @@ D:\Danial - Davood\Design website and programing\Asp.netCore\Project\DevCard\Dev
 D:\Danial - Davood\Design website and programing\Asp.netCore\Project\DevCard\DevCard_Mvc\obj\Debug\netcoreapp3.1\DevCard_Mvc.pdb
 D:\Danial - Davood\Design website and programing\Asp.netCore\Project\DevCard\DevCard_Mvc\obj\Debug\netcoreapp3.1\DevCard_Mvc.genruntimeconfig.cache
 D:\Danial - Davood\Design website and programing\Asp.netCore\Project\DevCard\DevCard_Mvc\obj\Debug\netcoreapp3.1\DevCard_Mvc.csproj.CopyComplete
+D:\Danial - Davood\Design website and programing\Asp.netCore\Project\DevCard\DevCard_Mvc\obj\Debug\netcoreapp3.1\DevCard_Mvc.csprojAssemblyReference.cache

@@ -18,9 +18,16 @@ namespace DevCard_Mvc.Controllers
         {
             return View();
         }
-        public IActionResult Contact()
+        [HttpGet]
+        public IActionResult contact()
         {
             return View();
+        }
+        [HttpPost]
+        public JsonResult contact(Contact contact)
+        {
+            var Name = contact.Name; 
+            return Json(Ok());
         }
         
 
