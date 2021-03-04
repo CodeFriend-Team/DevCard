@@ -1,4 +1,9 @@
-﻿namespace DevCard_MVC.Models
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace DevCard_Mvc.Models
 {
     public class Project
     {

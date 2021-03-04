@@ -4,6 +4,7 @@ using Microsoft.Extensions.Logging;
 using DevCard_Mvc.Models;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using DevCard_Mvc.Data;
 
 namespace DevCard_Mvc.Controllers
 {
@@ -11,6 +12,7 @@ namespace DevCard_Mvc.Controllers
     {
 
         private readonly List<Services> _services = new List<Services>{
+         
             new Services( 1,"طلایی"),
             new Services( 2,"نقره ای"),
             new Services( 3,"الماس"),
@@ -26,7 +28,7 @@ namespace DevCard_Mvc.Controllers
         {
             var contact = new Contact
             {
-                Services = new SelectList(_services,"Id","Name")
+                Services = new SelectList(_services, "Id", "Name")
             };
             return View(contact);
         }
@@ -43,13 +45,19 @@ namespace DevCard_Mvc.Controllers
             if (!ModelState.IsValid)
             {
                 ViewBag.Error = "اطلاعات وارد شده صحیح نیست.";
-                return View(contact);                
+                return View(contact);
             }
             ModelState.Clear();
+
+            ViewBag.Success = "عملیات با موفقیت انجام شد.";
+            return View(contact);
+
+        }
         
-                ViewBag.Success = "عملیات با موفقیت انجام شد.";
-                return View(contact);
-            
+        public IActionResult Details(long id)
+        {
+            var projects = ProjectStore.GetProjectById(id);
+            return View(projects);
         }
         
 

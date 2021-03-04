@@ -1,0 +1,38 @@
+﻿@model Project
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<style>
+    img{
+        width:100px;
+    }
+    .projects {
+        margin: 0 40px;
+    }
+</style>
+<div class="projects">
+    <h4>Project</h4>
+    <hr />
+    <table class="table table-bordered table-hover client-quote">
+        <tr>
+
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Client</th>
+        </tr>
+        <tr>
+            `
+            <td>@Model.Id</td>
+            <td>@Model.Name</td>
+            <td>@Model.Description</td>
+            <td><img src="~/assets/images/project/@Model.Image" /></td>
+            <td>@Model.Client</td>
+        </tr>
+    </table>
+    <a asp-action="Index">Back to List</a>
+</div>
